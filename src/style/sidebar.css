@@ -1,0 +1,11 @@
+.sidebar {
+ 
+  margin: 5px 0px 0px 0px;
+  padding: 1px 20px;
+  /* position: fixed; */
+  border-left: none;
+  border-top: none;
+  width: 250px;
+  box-shadow: rgba(24, 24, 24, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 2px 0px;
+}

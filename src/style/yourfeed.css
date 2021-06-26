@@ -1,0 +1,22 @@
+.yourfeed {
+  border: 1px solid rgb(139, 136, 136);
+  padding: 30px;
+  margin: 0;
+  border-radius: 17px;
+}
+.field-1 {
+  display: flex;
+  margin: 10px;
+}
+.field-1 .avatar{
+  margin-right: 10px;
+}
+.field-1 .username{
+  font-size: large;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.field-2 {
+  display: flex;
+}

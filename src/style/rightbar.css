@@ -1,0 +1,57 @@
+.rightbar {
+  margin: 5px 0px 0px 0px;
+  padding: 1px 0px 0px 10px;
+
+  border-left: none;
+  border-top: none;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+}
+.trends {
+  margin: 5px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 17px;
+}
+.trends:hover {
+  cursor: pointer;
+  background-color: rgb(231, 231, 231);
+  opacity: 90%;
+}
+.trends {
+  position: relative;
+  transition: transform 0.3s ease;
+  transform: translateX(0px);
+}
+
+.trends:hover {
+  transform: translateX(15px);
+  font-weight: 600;
+}
+.next,
+.prev {
+  cursor: pointer;
+  font-size: x-large;
+}
+.friend_list > li {
+  list-style-type: none;
+  border: 1px solid black;
+  border-radius: 17px;
+  position: relative;
+  transition: transform 0.3s ease;
+  transform: translateX(0px);
+  padding: 10px;
+  margin: 10px;
+}
+.friend_list > li:hover {
+  font-weight: 600;
+  cursor: pointer;
+
+  background-color: rgb(211, 211, 211);
+  transform: translateX(10px);
+}
+.terms > a {
+  font-size: smaller;
+  padding: 3px;
+  margin: 0px;
+  text-decoration: none;
+}
